@@ -65,7 +65,7 @@ public class T03 {
                 } else {
                     kategoribuku = "---";
                 }
-                System.out.println(iSBN + "|" + judul + "|" + penulis + "|" + TT + "|" + penerbit + "|" + FBE + "|" + HP + "|" + MM + "|" + stok + "|" + rating + "|" + grade + "|" + kategori + "|" + kategoribuku);
+                System.out.println(iSBN + "|" + judul + "|" + penulis + "|" + tahunTerbit + "|" + penerbit + "|" + formatBukuElektranik + "|" + hargaPembelian + "|" + minimumMargin + "|" + stok + "|" + rating + "|" + grade + "|" + kategori + "|" + kategoribuku);
             }
         } while (!iSBN.equals("---"));
     }
